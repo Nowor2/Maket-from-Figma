@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  color: #2F281E;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* HEADER */
+
+.header{
+  padding: 20px 0;
+}
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  gap: 30px;
+}
+
+.header-buttons{
+  display: flex;
+  gap: 15px;
+}
+
+.btn-white{
+  padding: 10px 20px;
+  background: white;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.btn-orange{
+  padding: 10px 20px;
+  background: #FF9900;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* HERO */
+
+.hero{
+  padding: 50px 0;
+}
+
+.hero .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text{
+  width: 500px;
+}
+
+.hero-text h1{
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.hero-text p{
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-buttons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* FEATURES */
+
+.features{
+  padding: 80px 0;
+  text-align: center;
+}
+
+.features h2{
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.features-items{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.item{
+  width: 250px;
+}
+
+.item img{
+  margin-bottom: 20px;
+}
+
+.item h3{
+  margin-bottom: 15px;
+}
+
+/* PROFESSIONALS */
+
+.professionals{
+  padding: 80px 0;
+}
+
+.professionals .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.professionals-text{
+  width: 500px;
+}
+
+.professionals-text h2{
+  margin: 15px 0 20px;
+}
+
+.professionals-text h4{
+  margin: 20px 0 10px;
+}
+
+/* MANAGERS */
+
+.managers{
+  padding: 80px 0;
+}
+
+.managers .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.managers-text{
+  width: 500px;
+}
+
+.managers-text h2{
+  margin: 15px 0 20px;
+}
+
+.managers-text ul{
+  margin-top: 20px;
+}
+
+.managers-text li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* MARKETERS */
+
+.marketers{
+  padding: 80px 0;
+}
+
+.marketers .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marketers-text{
+  width: 500px;
+}
+
+.marketers-text h2{
+  margin: 15px 0 20px;
+}
+
+.marketers-text h4{
+  margin: 20px 0 10px;
+}
+
+/* FOOTER */
+
+.footer{
+  padding: 50px 0;
+}
+
+.footer .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-form input{
+  padding: 10px;
+  width: 250px;
+}
